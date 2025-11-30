@@ -13,6 +13,7 @@ module _percheron(
 	assign Inst = {MI[DirInst], MI[DirInst+1], MI[DirInst+2], MI[DirInst+3]};
 	
 	initial begin
-		$readmemb("Set.txt", MI);
+		$readmemb("DATA\Set.txt", MI);
 	end
+
 endmodule
