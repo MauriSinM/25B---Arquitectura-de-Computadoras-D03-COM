@@ -1,4 +1,4 @@
-module _mem_br (
+module _MEM_WB (
     input wire clk,
     input wire [31:0] ReadData,   // dato leído de memoria (MEM)
     input wire [31:0] AluRes,     // resultado de ALU (MEM)
@@ -30,3 +30,4 @@ module _mem_br (
     end
 
 endmodule
+
