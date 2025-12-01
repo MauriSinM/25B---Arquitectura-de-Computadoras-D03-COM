@@ -1,4 +1,4 @@
-module _de_ex (
+module _DE_EX (
     input wire clk,
     input wire [31:0] Dr1,   
     input wire [31:0] Dr2,   
@@ -17,3 +17,4 @@ module _de_ex (
 	end
 
 endmodule
+
