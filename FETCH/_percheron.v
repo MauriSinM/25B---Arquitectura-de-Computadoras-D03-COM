@@ -4,7 +4,7 @@ module _percheron(
 	output [31:0] Inst
 );
 	
-	reg [7:0] MI [0:63];
+	reg [7:0] MI [0:255];
 	
 	wire [4:0] C3;
 	
@@ -17,3 +17,4 @@ module _percheron(
 	end
 
 endmodule
+
