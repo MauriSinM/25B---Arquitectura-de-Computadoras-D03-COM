@@ -1,4 +1,4 @@
-module data_memory(
+module _data_memory(
 	input  wire        clk,
     input  wire        MemRead,
     input  wire        MemWrite,
