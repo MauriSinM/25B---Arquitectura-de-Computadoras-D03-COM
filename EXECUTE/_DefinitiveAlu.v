@@ -1,4 +1,4 @@
-module _DefinitivedAlu(
+module _DefinitiveAlu(
     input wire [31:0] A,
     input wire [31:0] B,
     input wire [2:0] op,       
@@ -46,3 +46,4 @@ module _DefinitivedAlu(
     end
 
 endmodule
+
