@@ -1,4 +1,4 @@
-module _ex_mem (
+module _EX_MEM (
     input wire clk,
 
     // Señales de control desde EX
@@ -50,3 +50,4 @@ module _ex_mem (
     end
 
 endmodule
+
